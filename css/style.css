@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(61, 159, 216, 0.923);
+    background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Bugs_Bunny.svg/640px-Bugs_Bunny.svg.png) ;
+    background-repeat: no-repeat ;
+    background-position: right top ;
+    background-size: 300px;
+    background-attachment: fixed;
+}
+.main{
+    width: 500px;
+    height: 100%;
+    background-color: rgba(255, 114, 248, 0.728);
+}
+.a1{
+    background-color: fuchsia;
+    border: 3px dotted white;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.a1:hover{
+    background-color:white ;
+    border: 3px dotted fuchsia;
+    color: fuchsia;
+}
+.a2{
+    color: rgb(0, 255, 0);
+    font-style: italic;
+    background-color:rgba(0, 0, 255, 0.606) ;
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.a2:hover{
+    text-decoration: line-through;
+}
+.a3{
+    color: rgb(255, 195, 77);
+    text-transform: uppercase;
+}
+.a3:hover{
+    color: rgb(255, 221, 0);
+}
